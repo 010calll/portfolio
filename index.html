@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
+    <header class="fixed-top">
         <a href="#" class="logo">Huda</a>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -20,16 +20,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Diplome</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                        
+                        <li class="nav-item"><a class="nav-link active" href="#ME">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#diplome">Diplome</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
     </header>
     <section class="home container">
         <div class="row">
@@ -37,20 +35,150 @@
                 <img src="img.jpg" alt="">
             </div>
             <div class="col-md-6 home-content">
-                <h1>Sallu,C'est <span>Huda</span></h1>
+                <h1 id="ME">Sallut,C'est <span>Huda</span></h1>
                 <h3 class="typing-text">Je suis un <span></span></h3>
-                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
-                <a href="" class="btn">Contacter</a>
+                <a href="#contact" class="btn">Contacter</a>
             </div>
         </div>
     </section>
+    <section id="diplome" class="container mt-5">
+        <h1 class="text-center" id="#diplome" style="color: brown;">Mes Diplômes</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="diplome.png" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"><a href="" style="color: brown;"></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="diplome.png" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"><a href="" style="color: brown;"></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="diplome.png" class="card-img-top">
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="container mt-5">
+        <h1 class="text-center" id="#project" style="color: brown;">Mes Projets</h1>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 1</h5>
+                        <video src="calcule.mp4" autoplay loop muted playsinline width="100%" height="auto" class="img-fluid"></video>
+                        <i class="fa-solid fa-code fa-fade"></i>
+                        <i class="fa-solid fa-window-maximize fa-fade"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 2</h5>
+                        <video src="miniport.mp4" autoplay loop muted playsinline width="50%" height="auto" class="img-fluid"></video><br>
+                        <i class="fa-solid fa-code fa-fade"></i> 
+                        <i class="fa-solid fa-window-maximize fa-fade"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 3</h5>
+                        <video src="nike.mp4" autoplay loop muted playsinline width="100%"
+                            height="auto" class="img-fluid"></video>
+
+                            <i class="fa-solid fa-code fa-fade"></i> 
+                            <i class="fa-solid fa-window-maximize fa-fade"></i>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 4</h5>
+                        <video src="Recording 2025-02-09 161231.mp4" autoplay loop muted playsinline width="100%"
+                            height="auto" class="img-fluid"></video>
+                            <i class="fa-solid fa-code fa-fade"></i> 
+                        <i class="fa-solid fa-window-maximize fa-fade"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 5</h5>
+                        <video src="pmusic.mp4" autoplay loop muted playsinline width="100%" height="auto"                           class="img-fluid"></video>
+                        <i class="fa-solid fa-code fa-fade"></i> 
+                        <i class="fa-solid fa-window-maximize fa-fade"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet 6</h5>
+                        <video src="site.mp4" autoplay loop muted playsinline width="100%" height="auto"
+                            class="img-fluid"></video>
+                            <i class="fa-solid fa-code fa-fade"></i> 
+                        <i class="fa-solid fa-window-maximize fa-fade"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container mt-5">
+        <h1 class="text-center" style="color: brown;">Contact</h1>
+        <div class="form-container">
+            <form class="contact-form">
+                <div class="box">
+                    <div class="input-container">
+                        <input type="text" id="Fullname" placeholder=" " class="bottom">
+                        <label for="Fullname">Nom complet</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="number" placeholder=" " class="bottom">
+                        <label for="number">Numéro</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" id="Email" placeholder=" " class="bottom">
+                        <label for="Email">Email</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="message" placeholder=" " class="bottom">
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="text-center p-3">
+        <p>&copy; Huda 2025</p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
