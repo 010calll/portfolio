@@ -1,4 +1,4 @@
-# Portfolio de Huda
+# Portfolio 
 
 Ce repository contient mon portfolio personnel présentant mes projets et compétences.
 
